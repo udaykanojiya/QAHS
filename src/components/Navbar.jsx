@@ -231,8 +231,8 @@ const Navbar = () => {
         .mobile-toggle { display: none; background: none; border: none; color: var(--primary); cursor: pointer; }
 
         .mobile-drawer {
-          position: fixed;
-          top: 72px;
+          position: absolute;
+          top: 100%;
           left: 0;
           right: 0;
           background: white;
