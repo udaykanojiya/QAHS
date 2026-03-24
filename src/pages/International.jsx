@@ -37,7 +37,7 @@ const International = () => {
             </div>
           </div>
           <div className="india-text">
-            <img src="/src/assets/images/international_patient_care.png" alt="International Patient Care Delivery" style={{width: '100%', borderRadius: '12px', marginBottom: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', objectFit: 'cover'}} />
+            <img src="/images/international_patient_care.png" alt="International Patient Care Delivery" style={{width: '100%', borderRadius: '12px', marginBottom: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', objectFit: 'cover'}} />
             <p className="lead">
               India has emerged as one of the world's top destinations for affordable, high-quality medical care. Procedures that cost $30,000+ in the US or UK can be done here with the same clinical quality at a fraction of the cost.
             </p>

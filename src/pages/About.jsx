@@ -16,7 +16,7 @@ const About = () => {
         <div className="container grid-2">
           <div className="who-image">
             <div className="image-wrap about-img-wrap">
-              <img src="/src/assets/images/team.jpg" alt="QHAS Doctor Team" className="about-team-img" />
+              <img src="/images/team.jpg" alt="QHAS Doctor Team" className="about-team-img" />
               <div className="badge">
                 <span className="badge-dot"></span>Est. in Jabalpur, M.P.
               </div>

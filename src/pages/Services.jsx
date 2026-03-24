@@ -5,7 +5,7 @@ import { ChevronRight, Check } from 'lucide-react';
 
 // Using generated image paths
 const IMAGES = {
-  setup: '/src/assets/images/hospital_setup_consultancy.png',
+  setup: '/images/hospital_setup_consultancy.png',
 };
 
 const Services = () => {
