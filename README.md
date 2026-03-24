@@ -36,9 +36,8 @@ This website represents a complete digital presence for QHAS, enabling hospitals
 
 * HTML5 / CSS3
 * JavaScript
-* React (if used)
-* Tailwind CSS / Bootstrap (if used)
-* Antigravity / AI Website Builder
+* React.js
+* Tailwind CSS 
 
 ---
 
@@ -64,33 +63,8 @@ To create a **professional, scalable, and user-friendly website** that helps:
 
 ## 📍 Contact Information
 
-**📌 Address:**
-Gate No. 04, Beside Gautam IAS Academy
-Sneh Nagar Road, Jabalpur, Madhya Pradesh
-
-**📌 Branch:**
-872 Yadav Colony, Vivekanand Ward
-Jabalpur (M.P.) – 482002
 
 **📞 Phone:** +91 9301444414
 **📧 Email:** [quickhospital01@gmail.com](mailto:quickhospital01@gmail.com)
 
----
 
-## 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome!
-Feel free to fork the repository and submit a pull request.
-
----
-
-## 📄 License
-
-This project is intended for business and demonstration purposes.
-All rights reserved © QHAS.
-
----
-
-## ⭐ Support
-
-If you find this project useful, consider giving it a ⭐ on GitHub!
