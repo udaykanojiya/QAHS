@@ -188,6 +188,9 @@ const Contact = () => {
          <section className="map-section">
             <div className="map-placeholder">
                <div className="map-overlay">
+                  <div className="map-icon-wrapper">
+                     <MapPin size={32} />
+                  </div>
                   <h3>QHAS Head Office</h3>
                   <p>Jabalpur, Madhya Pradesh</p>
                   <a
@@ -233,8 +236,8 @@ const Contact = () => {
 
          <style dangerouslySetInnerHTML={{
             __html: `
-        .contact-section { padding: 100px 0; background: white; }
-        .bg-light { background: var(--bg-light); padding: 100px 0; }
+        .contact-section { padding: 70px 0; background: white; }
+        .bg-light { background: var(--bg-light); padding: 70px 0; }
         
         .contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 80px; }
         
@@ -248,7 +251,7 @@ const Contact = () => {
         .text-center { text-align: center; }
         .font-sm { font-size: 13px; }
         .text-muted { color: var(--text-muted); }
-        .centered { text-align: center; margin-bottom: 60px; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .centered { text-align: center; margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto; }
 
         .info-cards { display: flex; flex-direction: column; gap: 24px; }
         .info-card { display: flex; align-items: center; gap: 20px; padding-bottom: 24px; border-bottom: 1px dashed var(--border); }
@@ -282,19 +285,33 @@ const Contact = () => {
         }
         .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--primary); }
 
-        .map-section { height: 400px; width: 100%; position: relative; }
+        .map-section { height: 450px; width: 100%; position: relative; padding: 20px 0; background: var(--bg-light); }
         .map-placeholder {
-           width: 100%; height: 100%; background: #E5E9EC;
-           background-image: radial-gradient(#CED4DA 2px, transparent 2px);
-           background-size: 30px 30px;
+           width: 100%; height: 100%; 
+           background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+           background-image: radial-gradient(var(--primary) 1px, transparent 1px);
+           background-size: 40px 40px;
            display: flex; align-items: center; justify-content: center;
+           border-radius: 24px;
+           overflow: hidden;
+           box-shadow: inset 0 0 100px rgba(0,0,0,0.05);
         }
         .map-overlay {
-           background: white; padding: 24px 32px; border-radius: 12px;
-           box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center;
+           background: white; padding: 40px; border-radius: 20px;
+           box-shadow: 0 30px 60px rgba(26,126,181,0.15); text-align: center;
+           max-width: 400px;
+           border-top: 5px solid var(--primary);
+           transition: transform 0.3s;
         }
-        .map-overlay h3 { margin-bottom: 8px; color: var(--primary); }
-        .map-overlay p { color: var(--text-muted); font-size: 15px; }
+        .map-overlay:hover { transform: translateY(-5px); }
+        .map-overlay h3 { margin-bottom: 12px; color: var(--primary); font-size: 24px; }
+        .map-icon-wrapper {
+           width: 64px; height: 64px; background: rgba(26,126,181,0.1);
+           color: var(--primary); border-radius: 50%;
+           display: flex; align-items: center; justify-content: center;
+           margin: 0 auto 20px;
+        }
+        .map-overlay p { color: var(--text-muted); font-size: 16px; margin-bottom: 20px; }
 
         .faq-accordion { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
         .faq-item { overflow: hidden; transition: all 0.3s; border: 1px solid var(--border); }
@@ -310,8 +327,11 @@ const Contact = () => {
         .faq-inner { padding: 0 24px 24px; font-size: 16px; color: var(--text-muted); line-height: 1.6; }
 
         @media (max-width: 1024px) {
-           .contact-grid { grid-template-columns: 1fr; gap: 60px; }
+           .contact-section, .bg-light { padding: 40px 0; }
+           .contact-grid { grid-template-columns: 1fr; gap: 40px; }
            .form-row { grid-template-columns: 1fr; }
+           .map-section { height: auto; padding: 0 20px 40px; }
+           .map-overlay { padding: 30px 20px; }
         }
       ` }} />
       </div>

@@ -91,8 +91,8 @@ const Compliance = () => {
       </section>
 
       <style dangerouslySetInnerHTML={{ __html: `
-        .bg-white { background: white; padding: 100px 0; }
-        .bg-light { background: var(--bg-light); padding: 100px 0; }
+        .bg-white { background: white; padding: 70px 0; }
+        .bg-light { background: var(--bg-light); padding: 70px 0; }
         .mt-30 { margin-top: 30px; }
         .mt-40 { margin-top: 40px; }
         .mb-20 { margin-bottom: 20px; }
@@ -135,7 +135,7 @@ const Compliance = () => {
         .c-service-card h4 { font-size: 18px; margin-bottom: 12px; }
         .c-service-card p { font-size: 15px; color: var(--text-muted); margin: 0; line-height: 1.5; }
 
-        .calendar-cta { background: var(--hero-gradient); padding: 100px 0; }
+        .calendar-cta { background: var(--hero-gradient); padding: 70px 0; }
         .calendar-cta h3 { font-size: 36px; color: white; }
 
         @media (max-width: 1024px) {
@@ -143,6 +143,7 @@ const Compliance = () => {
            .attention-box { padding: 40px 20px; }
         }
         @media (max-width: 767px) {
+           .bg-white, .bg-light, .calendar-cta { padding: 40px 0; }
            .services-grid-3x3 { grid-template-columns: 1fr; }
            .risk-grid { grid-template-columns: 1fr; }
            .a-header h2 { font-size: 24px; text-align: left;}

@@ -240,7 +240,7 @@ const Services = () => {
 
         .mobile-tabs { display: none; }
 
-        .service-block { padding: 120px 0; }
+        .service-block { padding: 70px 0; }
         .service-block.bg-light { background: var(--bg-light); }
         .service-block.bg-white { background: white; }
 
@@ -336,7 +336,7 @@ const Services = () => {
             align-items: center;
             justify-content: center;
           }
-          .service-block { padding: 80px 0; }
+          .service-block { padding: 40px 0; }
           .s-content h3 { font-size: 32px; }
           .lead { font-size: 18px; }
           .equipment-grid { grid-template-columns: 1fr; }

@@ -44,6 +44,12 @@ const PageHero = ({ title, subtitle, breadcrumb }) => {
           pointer-events: none;
           text-transform: uppercase;
         }
+        @media (max-width: 768px) {
+          .page-hero { padding: 30px 0; }
+          .page-hero h1 { font-size: 38px; }
+          .subtitle { font-size: 18px; }
+          .hero-watermark { font-size: 80px; }
+        }
       ` }} />
     </section>
   );
